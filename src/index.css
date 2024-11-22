@@ -77,9 +77,17 @@ li {
   margin-right: 16px;
 }
 
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .mail-box {
+  margin: 10px;
   border: 2px solid white;
   padding: 20px;
+  width: 80px
 }
 
 form {
